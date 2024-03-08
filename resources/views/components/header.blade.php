@@ -3,29 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <script src="{{ asset('js/app.js') }}" defer></script>
+    @vite('resources/css/app.css')
     <title>Document</title>
 </head>
 <body>
-<header class="row">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">My Laravel App</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="/home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/contact">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/about">About Us</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+<div class="bg-yellow-300 py-4 px-6 flex justify-between items-center">
+    <!-- Logo -->
+    <div class="flex items-center">
+        <img src="caminho_para_sua_logo.png" alt="Logo" class="h-8 w-auto mr-4">
+        <span class="text-lg font-bold">Minha Empresa</span>
+    </div>
+
+    <!-- Opções de Página -->
+    <ul class="flex items-center space-x-6">
+        <li><a href="{{ route('home') }}" class="text-gray-800 hover:text-gray-600">Home</a></li>
+        <li><a href="{{ route('aboutus') }}" class="text-gray-800 hover:text-gray-600">Sobre Mim</a></li>
+        <li><a href="{{ route('contact') }}" class="text-gray-800 hover:text-gray-600">Contato</a></li>
+    </ul>
+</div>
 </body>
 </html>

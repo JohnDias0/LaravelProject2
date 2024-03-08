@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\ProfileController;
+
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +13,8 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+
+
 
 Route::get('/', function () {
     return view('welcome');
@@ -28,10 +30,8 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-Route::get('/home', [HomePageController::class, 'index']);
-
-Route::get('/contact', [ContactPageController::class, 'index']);
-
-Route::get('/about-us', [AboutUsPageController::class, 'index']);
+Route::get('/home', 'App\Http\Controllers\HomePageController@index')->name('home');
+Route::get('/contact', 'App\Http\Controllers\ContactPageController@index')->name('contact');
+Route::get('/about-us', 'App\Http\Controllers\AboutUsPageController@index')->name('aboutus');
 
 require __DIR__.'/auth.php';
