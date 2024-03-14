@@ -7,8 +7,7 @@
     <title>Contact</title>
 </head>
 <body>
-    <h1>Contact Page</h1>
     @include('components.header')
-
+    <h1>Contato </h1>
 </body>
 </html>

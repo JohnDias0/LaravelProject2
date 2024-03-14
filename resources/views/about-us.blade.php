@@ -7,7 +7,7 @@
     <title>About Us</title>
 </head>
 <body>
-    <h1>About Us Page</h1>
     @include('components.header')
+    <h1>Sobre Mim</h1>
 </body>
 </html>

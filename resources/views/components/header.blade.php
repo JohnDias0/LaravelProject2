@@ -12,7 +12,8 @@
 <div class="bg-yellow-300 py-4 px-6 mr-7 flex justify-between items-center">
     <!-- Logo -->
     <div class="flex items-center">
-    <img src="caminho_para_sua_logo.png" alt="Logo" class="h-8 w-auto mr-2">
+    <img src="{{ asset('resources/css/logo.png') }}" alt="Logo" class="h-8 w-auto mr-2">
+
 </div>
 
 

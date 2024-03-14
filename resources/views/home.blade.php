@@ -9,6 +9,7 @@
 <body>
 <div class="bg-yellow-300">
 @include('components.header')
+<h1>Home</h1>
 </div>
 
 
