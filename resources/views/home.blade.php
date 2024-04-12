@@ -21,7 +21,7 @@
 </header>
 <section>
 <div class="relative" style="font-family: 'Kanit', sans-serif;">
-    <img class="w-full object-cover shadow" src="https://www.eteczonaleste.com.br/wp-content/uploads/2023/09/image-21-1.jpg" alt="Visão aérea da Etec Zona Leste">
+    <img class="w-full  object-cover shadow" src="https://www.eteczonaleste.com.br/wp-content/uploads/2023/09/image-21-1.jpg" alt="Visão aérea da Etec Zona Leste">
     <div class="absolute inset-0 bg-black opacity-50"></div>
     <div class="absolute bottom-0 left-0 right-0 py-16 border-b-4 border-red-500 border-red-500-hover transition-all duration-500">
         <div class="ml-10 text-left text-white">
