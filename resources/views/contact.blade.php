@@ -7,7 +7,23 @@
     <title>Contact</title>
 </head>
 <body>
+    <header>
     @include('components.header')
-    <h1>Contato </h1>
+    </header>
+    <section>
+    <div class="flex flex-col justify-center min-h-[80vh] max-h-[528px] bg-gradient-custom">
+            <div class="banner-primary__wysiwyg max-w-[737px] mb-28 md:mb-11">
+                <p class="category mb-6"> Cursos </p>
+                <h2>Descubra os Incríveis Cursos Oferecidos pela Nossa Unidade: Transforme seu Futuro Agora!</h2>
+
+            </div>
+
+                            <div>
+                    <a class="btn btn--primary btn--md  uppercase" href="#" target="" rel="noopener noreferrer">
+            Contato
+        </a>
+                    </div>
+                    </div>
+    </section>
 </body>
 </html>

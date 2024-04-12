@@ -9,10 +9,10 @@
     <title>Document</title>
 </head>
 <body>
-<div class="bg-yellow-300 py-4 px-6 mr-7 flex justify-between items-center">
+<div class="bg-slate-200 py-4 px-6 flex justify-between items-center min-h-20 border-b border-red-500">
     <!-- Logo -->
     <div class="flex items-center">
-    <img src="{{ asset('resources/css/logo.png') }}" alt="Logo" class="h-8 w-auto mr-2">
+    <a href="/"><img src="{{asset('./img/logo - header.png')}}" class="h-12 w-auto mr-5"></a>
 
 </div>
 
